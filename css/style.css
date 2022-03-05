@@ -6,6 +6,31 @@
 * Contexts
 */
 
+/* FONTES USADAS */
+
+@font-face {
+  font-family: 'Poppins';
+  src: 
+	url('../fonts/fonts2/Poppins/Poppins-ExtraLight.ttf') format('truetype'),
+	url('../fonts/fonts2/Poppins/Poppins-Regular.ttf') format('truetype'),
+	url('../fonts/fonts2/Poppins/Poppins-Medium.ttf') format('truetype'),
+	url('../fonts/fonts2/Poppins/Poppins-Bold.ttf') format('truetype'),
+	url('../fonts/fonts2/Poppins/Poppins-Black.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: 
+	url('../fonts/fonts2/Montserrat/static/Montserrat-Light.ttf') format('truetype'),
+	url('../fonts/fonts2/Montserrat/static/Montserrat-Regular.ttf') format('truetype'),
+	url('../fonts/fonts2/Montserrat/static/Montserrat-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('../fonts/fonts2/Playfair_Display/static/PlayfairDisplay-Regular.ttf') format('truetype');
+}
+
 :root{
 --bg-cinza-antigo: #404044;
 --bg-cinza-obj: #212124;
@@ -6153,10 +6178,11 @@ html.tablet .ui-to-top {
 	display: inline-block;
 	padding-bottom: 10px;
 	color: #ffffff;
-	font-size: 12px;
+	font-size: 14px;
 	line-height: 1.2;
 	transition: .25s;
 	text-transform: uppercase;
+	font-weight: bold;
 }
 
 .rd-navbar-static .rd-nav-link:before {

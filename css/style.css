@@ -8310,7 +8310,6 @@ html.rd-navbar-fixed-linked .page {
 	line-height: 0.8;
 	font-weight: 700;
 	letter-spacing: .017em;
-	text-transform: uppercase;
 	font-family: "Poppins", sans-serif;
 	margin-bottom: 7px;
 }
@@ -8990,6 +8989,18 @@ html.rd-navbar-fixed-linked .page {
 
 .subtitulo-cases{
   margin: auto;
+}
+
+
+/* QUEM SOMOS */
+
+.contact-btn {
+	background-color: #25d366;
+}
+
+.contact-btn:hover {
+	background-color: rgb(36, 189, 92);
+	color: #000;
 }
 
 

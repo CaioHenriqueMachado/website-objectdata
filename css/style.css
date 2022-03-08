@@ -8446,6 +8446,8 @@ html.rd-navbar-fixed-linked .page {
 	touch-action: manipulation;
 	-moz-backface-visibility: hidden;
 	/* fix firefox animation glitch */
+	display: flex;
+	align-items: center;
 }
 
 .owl-carousel .owl-stage:after {

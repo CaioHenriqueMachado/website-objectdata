@@ -4597,7 +4597,7 @@ html.boxed body {
 
 @media (min-width: 768px) {
 	.decor-text-1 {
-		left: calc(50% - 210px);
+		left: calc(65% - 210px);
 		bottom: 0;
 	}
 }
@@ -4616,7 +4616,7 @@ html.boxed body {
 
 @media (min-width: 992px) {
 	.decor-text-2 {
-		left: 20%;
+		right: 5%;
 		bottom: 10%;
 	}
 }

@@ -4617,7 +4617,7 @@ html.boxed body {
 @media (min-width: 992px) {
 	.decor-text-2 {
 		right: 5%;
-		bottom: 10%;
+		bottom: 0%;
 	}
 }
 

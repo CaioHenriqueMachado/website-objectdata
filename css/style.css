@@ -63,6 +63,29 @@
 	color: var(--red-obj);
 }
 
+/*
+Para abrir submenu ao passar o mouse
+
+.dropdown:hover .dropdown-menu{
+	display: block !important;
+}
+*/
+
+.dropdown-menu {
+	background-color: rgb(192, 192, 192);
+	
+}
+
+.dropdown-item{
+	color: var(--red-obj);
+	font-weight: bold;
+}
+
+.dropdown-item:hover{
+	background-color: var(--bg-cinza-obj);
+	color: #fff;
+}
+
 a:focus,
 button:focus {
 	outline: none !important;
